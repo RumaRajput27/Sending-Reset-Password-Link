@@ -1,0 +1,16 @@
+/project-root
+  /controllers
+    forgotPasswordController.js       # Handles logic for generating reset link, sending email, and resetting password
+  /models
+    user.js                           # Defines User model and its properties
+    forgotPasswordRequest.js          # Defines ForgotPasswordRequest model and its relationship to User
+  /routes
+    forgotPasswordRoutes.js           # Defines the routes for the forgot password functionality
+  /utils
+    emailService.js                   # Utility for sending emails
+  /database
+    connection.js                     # Database connection configuration (e.g., Sequelize or any DB connection)
+  app.js                              # Main app file to start the server and use routes
+  .env                                # Environment variables (e.g., email credentials, frontend URL)
+  package.json                        # Dependencies and scripts
+  README.md                           # Project information and setup instructions
